@@ -4,6 +4,10 @@ A custom runtime layer that runs Bun on AWS Lambda.
 
 ## Setup
 
+You will need to have the aws-cli installed. See AWS' official documentation for instructions: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html. 
+
+You will need to have a region configured via the aws-cli. There are many ways to do so: https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-configure.html. An easy way is via `$aws configure`. 
+
 First, you will need to deploy the layer to your AWS account. Clone this repository and run the `publish-layer` script to get started. Note: the `publish-layer` script also builds the layer.
 
 ```sh
